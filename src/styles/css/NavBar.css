@@ -1,0 +1,42 @@
+.nav-container .nav-bar {
+  background-color: #026abc;
+  z-index: 100;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  box-shadow: -1px 10px 5px #888888; }
+  .nav-container .nav-bar .brand {
+    padding-left: 20px;
+    float: left; }
+    .nav-container .nav-bar .brand h2 {
+      color: #f1f1f1; }
+      .nav-container .nav-bar .brand h2 a:link {
+        text-decoration: none; }
+      .nav-container .nav-bar .brand h2:hover {
+        color: lightpink;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease; }
+      .nav-container .nav-bar .brand h2 #skinny {
+        font-weight: 100; }
+  @media screen and (min-width: 600px) {
+    .nav-container .nav-bar .btn-container {
+      float: right;
+      margin: 10px;
+      display: flex; } }
+  @media screen and (max-width: 599px) {
+    .nav-container .nav-bar .btn-container {
+      display: none; } }
+  @media screen and (min-width: 600px) {
+    .nav-container .nav-bar .collapse-container {
+      display: none; } }
+  @media screen and (max-width: 599px) {
+    .nav-container .nav-bar .collapse-container {
+      display: flex;
+      float: right;
+      margin-right: 20px; } }
+
+a:-webkit-any-link {
+  text-decoration: none; }
+
+/*# sourceMappingURL=NavBar.css.map */

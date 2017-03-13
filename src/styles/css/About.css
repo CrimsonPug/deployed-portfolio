@@ -1,0 +1,19 @@
+.about-container {
+  z-index: -10;
+  padding: 100px 50px 50px 50px;
+  background-color: #f1f1f1;
+  height: 100%;
+  border: 15px solid white; }
+  .about-container .img-wrapper {
+    text-align: right; }
+    .about-container .img-wrapper img {
+      height: 100%;
+      width: 100%; }
+  .about-container .info-wrapper {
+    font-family: 'Lato', sans-serif; }
+    .about-container .info-wrapper .about-title {
+      font-size: 40px; }
+    .about-container .info-wrapper p {
+      font-size: 20px; }
+
+/*# sourceMappingURL=About.css.map */

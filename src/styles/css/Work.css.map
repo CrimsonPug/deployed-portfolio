@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,eAAe;EACX,OAAO,EAAC,oBAAoB;EAC5B,gBAAgB,EAAC,OAAO;EACxB,MAAM,EAAC,gBAAgB;EACvB,oCAAqC;IAJzC,eAAe;MAKH,OAAO,EAAC,oBAAoB;EAEpC,0BAAU;IACN,UAAU,EAAC,IAAI",
+"sources": ["../scss/Work.scss"],
+"names": [],
+"file": "Work.css"
+}
