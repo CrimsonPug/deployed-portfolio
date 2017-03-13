@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Router, Route, IndexRoute, browserHistory} from 'react-router';
+import {Router, Route, IndexRoute, hashHistory} from 'react-router';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import App from './components/App';
@@ -12,7 +12,7 @@ import './index.css';
 
 ReactDOM.render(
   <MuiThemeProvider>
-    <Router history={browserHistory}>   
+    <Router history={hashHistory}>   
             <Route path="/" component={App} />
             <Route path="/about" component={About} />
             <Route path="/Work" component={Work} />
