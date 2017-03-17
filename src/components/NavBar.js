@@ -59,7 +59,7 @@ class NavBar extends Component {
                 <RaisedButton label="About" style={styles} />
               </Link>
               <Link to="/work">
-                <RaisedButton label="Work" primary={true} style={styles} />
+                <RaisedButton label="Work" style={styles} />
               </Link>
                 <PopoverExampleSimple/>
               </div>

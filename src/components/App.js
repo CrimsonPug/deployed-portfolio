@@ -52,11 +52,6 @@ class App extends Component {
                     Work
                   </Link>
                 </li>
-                <li>
-                  <Link to="/about">
-                    Contact 
-                  </Link>
-                </li>
               </ul>
             </nav>
           </div>

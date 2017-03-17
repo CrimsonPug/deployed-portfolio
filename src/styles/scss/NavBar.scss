@@ -1,12 +1,12 @@
 .nav-container{
     .nav-bar{
-        background-color: #026abc;
+        background-color: white;
         z-index: 100;
         height: 60px;
         width: 100%;
         // display: flex;
         position: fixed;
-        box-shadow: -1px 10px 5px #888888;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
         .brand{
             padding-left:20px;
             float:left;
@@ -16,11 +16,11 @@
                 }
                 &:hover{
                     color:lightpink;
-                    transition: all 0.5s ease;
-                    -webkit-transition: all 0.5s ease;
-                    -moz-transition: all 0.5s ease;
                 }
-                color:#f1f1f1;
+                color:#026abc;
+                transition: all 0.5s ease;
+                -webkit-transition: all 0.5s ease;
+                -moz-transition: all 0.5s ease;
                 #skinny{
                     font-weight:100;
                 }

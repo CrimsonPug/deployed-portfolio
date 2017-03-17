@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar';
 import UltimateScore from './../img/project/ultimateScore.png';
-import Independence from './../img/project/dementiaLogin.png';
+import Independence from './../img/project/dementiaHack.png';
 import Dive from './../img/project/dive-finder.png';
 import './../styles/css/Work.css';
 import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
