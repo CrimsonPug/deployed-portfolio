@@ -7,8 +7,35 @@ import GitHub from './../img/socialIcon/gitHub.svg';
 import Linkedin from './../img/socialIcon/linked.svg';
 import Email from './../img/socialIcon/email.svg';
 
+const fun = ['frisbee chaser', 'casual scuba diver','sloppy sushi maker','Hufflepuff advocate','pizza destroyer']
+    let prevWord;
+    let currentWord;
+
 class App extends Component {
+    constructor(){
+    super();
+    this.state = {
+      role: 'frisbee chaser'
+    }
+  }
+  componentDidMount(){
+   
+    setInterval(()=>{
+       prevWord = currentWord;
+      
+      currentWord === fun[Math.floor(Math.random() * ((fun.length-1) - 0 + 1)) + 0]
+
+      if (prevWord === currentWord){
+            currentWord = fun[Math.floor(Math.random() * ((fun.length-1) - 0 + 1)) + 0];
+        };
+      console.log(currentWord);
+      this.setState({
+        role: currentWord
+      })
+    },1000);
+  }
   render() {
+     const role = this.state.role;
     return (
       <div className="App">
         <div className="home-wrapper">
@@ -39,7 +66,7 @@ class App extends Component {
               </ul>
             </div>
             <p className="home-title">A web developer,</p>
-            <p className="home-title">frisbee chaser</p>
+            <p className="home-title">{this.state.role}</p>
             <nav className="nav-homepage">
               <ul>
                 <li>
