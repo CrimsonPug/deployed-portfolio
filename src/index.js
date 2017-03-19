@@ -11,7 +11,6 @@ import Work from './components/Work';
 import About from './components/About';
 import './index.css';
 
-
 ReactDOM.render(
   <MuiThemeProvider>
     <Router history={hashHistory}>   
