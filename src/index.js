@@ -4,6 +4,7 @@ import {Router, Route, IndexRoute, hashHistory} from 'react-router';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import UltimateScore from './components/UltimateScore';
+import DiveFinder from './components/DiveFinder';
 import App from './components/App';
 import NavBar from './components/NavBar';
 import Work from './components/Work';
@@ -18,7 +19,7 @@ ReactDOM.render(
             <Route path="/about" component={About} />
             <Route path="/Work" component={Work} />
             <Route path="/ultimate-score" component={UltimateScore} />
-
+            <Route path="/dive-finder" component={DiveFinder} />
     </Router>
   </MuiThemeProvider>,
   document.getElementById('root')

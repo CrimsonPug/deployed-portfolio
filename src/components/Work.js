@@ -63,6 +63,7 @@ class Work extends Component {
             </Card>
           </div>
           <div className="dive-finder col-lg-6 col-sm-12">
+          <Link to="/dive-finder">
             <Card>
               <CardHeader
                 title="Ikram Mustapha"
@@ -83,6 +84,7 @@ class Work extends Component {
                 <FlatButton label="Code" href="https://github.com/CrimsonPug/dive-finder" target="blank" />
               </CardActions>
             </Card>
+            </Link>
           </div>
         </div>
         <Footer />
