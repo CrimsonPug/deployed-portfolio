@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import {Router, Route, IndexRoute, hashHistory} from 'react-router';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import UltimateScore from './components/UltimateScore';
 import App from './components/App';
 import NavBar from './components/NavBar';
 import Work from './components/Work';
@@ -16,6 +17,8 @@ ReactDOM.render(
             <Route path="/" component={App} />
             <Route path="/about" component={About} />
             <Route path="/Work" component={Work} />
+            <Route path="/ultimate-score" component={UltimateScore} />
+
     </Router>
   </MuiThemeProvider>,
   document.getElementById('root')

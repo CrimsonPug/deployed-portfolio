@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar';
+import {Link} from 'react-router';
 import UltimateScore from './../img/project/ultimateScore.png';
 import Independence from './../img/project/dementiaHack.png';
 import Dive from './../img/project/dive-finder.png';
@@ -16,6 +17,7 @@ class Work extends Component {
         <NavBar />
         <div className="work-container row">
           <div className="ultimate-score col-lg-6 col-sm-12">
+            <Link to="/ultimate-score">
             <Card>
               <CardHeader
                 title="Ikram Mustapha"
@@ -36,6 +38,7 @@ class Work extends Component {
                 <FlatButton label="Code" href="https://github.com/CrimsonPug/ultimate-score" target="blank" />
               </CardActions>
             </Card>
+            </Link>
           </div>
           <div className="independence col-lg-6 col-sm-12">
             <Card>

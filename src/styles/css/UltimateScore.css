@@ -1,0 +1,53 @@
+.ultimate-container {
+  padding: 100px 50px 50px 50px;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  margin: 0px 50px;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 100;
+  letter-spacing: -.003em; }
+  .ultimate-container .whut-why {
+    margin: 50px 120px;
+    text-align: left; }
+    .ultimate-container .whut-why h2 {
+      font-size: 30px;
+      margin: 20px 0px; }
+    .ultimate-container .whut-why .objective-list {
+      display: flex;
+      justify-content: center; }
+      .ultimate-container .whut-why .objective-list ul li {
+        text-align: left; }
+  .ultimate-container .planning-phase {
+    margin: 50px 120px;
+    text-align: left; }
+    .ultimate-container .planning-phase h2 {
+      font-size: 30px; }
+    .ultimate-container .planning-phase .phase {
+      margin: 40px 0px; }
+  .ultimate-container .how-to-use {
+    margin: 50px 120px; }
+    .ultimate-container .how-to-use h2 {
+      font-size: 30px; }
+    .ultimate-container .how-to-use .in-a-hurry .pic {
+      margin: 40px 0px; }
+      .ultimate-container .how-to-use .in-a-hurry .pic img {
+        width: 700px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); }
+    .ultimate-container .how-to-use .sign-up {
+      margin: 40px 0px; }
+      .ultimate-container .how-to-use .sign-up .image {
+        margin: 60px 0px; }
+        .ultimate-container .how-to-use .sign-up .image img {
+          width: 700px;
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); }
+  .ultimate-container .challenges {
+    margin: 50px 120px;
+    text-align: left; }
+  .ultimate-container .moving-forward {
+    margin: 50px 120px;
+    text-align: left; }
+    .ultimate-container .moving-forward h2 {
+      font-size: 30px; }
+
+/*# sourceMappingURL=UltimateScore.css.map */

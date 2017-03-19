@@ -1,0 +1,73 @@
+.ultimate-container{
+    padding:100px 50px 50px 50px;
+    font-family: 'Lato', sans-serif;
+    color:#333;
+    margin:0px 50px;
+    text-align: center;
+    font-size:21px;
+    font-weight:100;
+    letter-spacing: -.003em;
+    .whut-why{
+        margin:50px 120px;
+        text-align: left;
+        h2{
+            font-size:30px;
+            margin:20px 0px;
+        }
+        .objective-list{
+            display: flex;
+            justify-content: center;
+            ul{
+                li{
+                    text-align: left;
+                }
+            }
+        }
+    }
+    .planning-phase{
+        margin:50px 120px;
+        text-align: left;
+        h2{
+            font-size:30px;
+        }
+        .phase{
+            margin:40px 0px;
+        }
+    }
+    .how-to-use{
+        margin:50px 120px;
+        h2{
+            font-size:30px;
+        }
+        .in-a-hurry{
+            .pic{
+                margin:40px 0px;
+                img{
+                    width:700px;
+                    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+                }
+            }
+        }
+        .sign-up{
+            margin:40px 0px;
+            .image{
+                margin:60px 0px;
+                img{
+                    width:700px;
+                    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+                }
+            }
+        }
+    }
+    .challenges{
+        margin:50px 120px;
+        text-align: left;
+    }
+    .moving-forward{
+        margin:50px 120px;
+        text-align: left;
+        h2{
+            font-size:30px;
+        }
+    }
+}
