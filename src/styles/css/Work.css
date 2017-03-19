@@ -7,5 +7,12 @@
       padding: 100px 20px 50px 20px; } }
   .work-container .col-sm-12 {
     margin-top: 20px; }
+  .work-container .col-lg-6 {
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+    .work-container .col-lg-6:hover {
+      transform: translateY(-1%); }
 
 /*# sourceMappingURL=Work.css.map */

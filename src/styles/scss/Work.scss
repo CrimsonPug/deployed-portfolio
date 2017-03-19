@@ -1,3 +1,10 @@
+@mixin transition($transition) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}
+
 .work-container{
     padding:100px 50px 50px 50px;
     background-color:#f1f1f1;
@@ -7,5 +14,11 @@
             }
     .col-sm-12{
         margin-top:20px;
+    }
+    .col-lg-6{
+        @include transition(all 0.5s ease);
+        &:hover{
+            transform: translateY(-1%);
+        }
     }
 }
