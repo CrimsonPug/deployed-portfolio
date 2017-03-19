@@ -41,6 +41,7 @@ class Work extends Component {
             </Link>
           </div>
           <div className="independence col-lg-6 col-sm-12">
+            <Link to="/independence-banking">
             <Card>
               <CardHeader
                 title="Ikram Mustapha"
@@ -61,6 +62,7 @@ class Work extends Component {
                 <FlatButton label="Code" href="https://github.com/marc22alain/shared-finance" target="blank" />
               </CardActions>
             </Card>
+            </Link>
           </div>
           <div className="dive-finder col-lg-6 col-sm-12">
           <Link to="/dive-finder">

@@ -5,6 +5,7 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import UltimateScore from './components/UltimateScore';
 import DiveFinder from './components/DIveFinder';
+import DementiaHack from './components/DementiaHack';
 import App from './components/App';
 import NavBar from './components/NavBar';
 import Work from './components/Work';
@@ -19,6 +20,7 @@ ReactDOM.render(
             <Route path="/Work" component={Work} />
             <Route path="/ultimate-score" component={UltimateScore} />
             <Route path="/dive-finder" component={DiveFinder} />
+            <Route path="/independence-banking" component={DementiaHack} />
     </Router>
   </MuiThemeProvider>,
   document.getElementById('root')

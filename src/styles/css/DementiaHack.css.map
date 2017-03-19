@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,SAAS;EACL,UAAU,EAAC,MAAM;EACjB,OAAO,EAAC,oBAAoB",
+"sources": ["../scss/DementiaHack.scss"],
+"names": [],
+"file": "DementiaHack.css"
+}
