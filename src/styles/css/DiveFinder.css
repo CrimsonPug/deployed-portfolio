@@ -32,14 +32,14 @@
     .dive-container .how-to-use .in-a-hurry .pic {
       margin: 40px 0px; }
       .dive-container .how-to-use .in-a-hurry .pic img {
-        width: 700px;
+        width: 90%;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); }
     .dive-container .how-to-use .sign-up {
       margin: 40px 0px; }
       .dive-container .how-to-use .sign-up .image {
         margin: 60px 0px; }
         .dive-container .how-to-use .sign-up .image img {
-          width: 700px;
+          width: 90%;
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); }
   .dive-container .challenges {
     margin: 50px 120px;
@@ -49,5 +49,18 @@
     text-align: left; }
     .dive-container .moving-forward h2 {
       font-size: 30px; }
+  @media screen and (max-width: 600px) {
+    .dive-container {
+      padding: 100px 0px 50px 0px; }
+      .dive-container .whut-why {
+        margin: 50px 10px; }
+      .dive-container .planning-phase {
+        margin: 50px 10px; }
+      .dive-container .how-to-use {
+        margin: 50px 10px; }
+      .dive-container .challenges {
+        margin: 50px 10px; }
+      .dive-container .moving-forward {
+        margin: 50px 10px; } }
 
 /*# sourceMappingURL=DiveFinder.css.map */

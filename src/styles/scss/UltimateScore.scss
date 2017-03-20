@@ -43,7 +43,7 @@
             .pic{
                 margin:40px 0px;
                 img{
-                    width:700px;
+                    width:90%;
                     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
                 }
             }
@@ -53,7 +53,7 @@
             .image{
                 margin:60px 0px;
                 img{
-                    width:700px;
+                    width:90%;
                     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
                 }
             }
@@ -70,4 +70,22 @@
             font-size:30px;
         }
     }
+    @media screen and (max-width: 600px) {
+            padding:100px 0px 50px 0px;
+            .whut-why{
+                margin:50px 10px;
+            }
+            .planning-phase{
+                margin:50px 10px;
+            }
+            .how-to-use{
+                margin:50px 10px;
+            }
+            .challenges{
+                margin:50px 10px;
+            }
+            .moving-forward{
+                margin:50px 10px;
+            }
+        }
 }
