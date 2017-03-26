@@ -1,20 +1,148 @@
-.about-container {
+.about .about-container {
   z-index: -10;
-  padding: 100px 50px 50px 50px;
+  padding: 100px 50px 0px 50px;
   background-color: #f1f1f1;
   height: 100%;
   border: 15px solid white; }
-  .about-container .img-wrapper {
+  .about .about-container .wrapper .img-wrapper {
     text-align: right; }
-    .about-container .img-wrapper img {
+    .about .about-container .wrapper .img-wrapper img {
       height: 100%;
       width: 100%; }
-  .about-container .info-wrapper {
+  .about .about-container .wrapper .info-wrapper {
     font-family: 'Lato', sans-serif; }
-    .about-container .info-wrapper .about-title {
+    .about .about-container .wrapper .info-wrapper .about-title {
       font-size: 40px; }
-    .about-container .info-wrapper p {
+    .about .about-container .wrapper .info-wrapper p {
       font-size: 20px;
       font-weight: 300; }
+.about .timeline {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  width: 95%;
+  margin: auto;
+  position: relative; }
+  .about .timeline .journey-container {
+    text-align: center;
+    width: 100%;
+    height: 1600px; }
+    .about .timeline .journey-container .journey-year {
+      display: none; }
+    .about .timeline .journey-container .middle-line {
+      position: absolute;
+      left: 50%;
+      padding: 0px;
+      width: 6px;
+      height: 1500px;
+      border-radius: 3px;
+      border: 3px solid black; }
+      .about .timeline .journey-container .middle-line .marker {
+        position: absolute;
+        font-size: 17px;
+        left: -24px;
+        border: 1px white solid;
+        z-index: 10;
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px; }
+      .about .timeline .journey-container .middle-line #first {
+        top: 50px; }
+      .about .timeline .journey-container .middle-line #second {
+        top: 350px; }
+      .about .timeline .journey-container .middle-line #third {
+        top: 600px; }
+      .about .timeline .journey-container .middle-line #fourth {
+        top: 900px; }
+      .about .timeline .journey-container .middle-line #fifth {
+        top: 1150px; }
+    @media screen and (max-width: 780px) {
+      .about .timeline .journey-container .middle-line {
+        left: 100%; } }
+    .about .timeline .journey-container .journey-item {
+      margin: 20px 0px;
+      background-color: white;
+      width: 500px;
+      height: 250px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+      position: relative;
+      top: 20px; }
+      .about .timeline .journey-container .journey-item .journey-image {
+        height: 100%;
+        position: absolute;
+        left: 0; }
+        .about .timeline .journey-container .journey-item .journey-image img {
+          height: 100%; }
+      .about .timeline .journey-container .journey-item .journey-description {
+        position: absolute;
+        text-align: left;
+        width: 60%;
+        left: 40%; }
+        .about .timeline .journey-container .journey-item .journey-description p {
+          font-size: 17px;
+          font-weight: 300; }
+      .about .timeline .journey-container .journey-item .marker {
+        position: relative;
+        font-size: 17px;
+        left: 524px;
+        top: 50px;
+        border: 1px black solid;
+        z-index: 10;
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px; }
+    .about .timeline .journey-container #gua-musang {
+      left: 55%; }
+      .about .timeline .journey-container #gua-musang .marker {
+        left: -76px; }
+    .about .timeline .journey-container #edmonton {
+      left: 55%; }
+    @media screen and (max-width: 780px) {
+      .about .timeline .journey-container #gua-musang {
+        left: 0%; }
+      .about .timeline .journey-container #edmonton {
+        left: 0%; } }
+    @media screen and (max-width: 413px) {
+      .about .timeline .journey-container .journey-item {
+        width: 330px;
+        height: 360px;
+        right: 20.5%; }
+        .about .timeline .journey-container .journey-item .journey-year {
+          display: block;
+          font-size: 22px;
+          padding: 5px 0px 5px 0px; }
+        .about .timeline .journey-container .journey-item .journey-image {
+          position: relative; }
+          .about .timeline .journey-container .journey-item .journey-image img {
+            height: 40%;
+            width: 40%;
+            border-radius: 50%;
+            margin-top: 1%; }
+        .about .timeline .journey-container .journey-item .journey-description {
+          text-align: center;
+          top: 50%;
+          left: 6%;
+          width: 90%; }
+      .about .timeline .journey-container #gua-musang {
+        left: -20.5%; }
+      .about .timeline .journey-container #edmonton {
+        left: -20.5%;
+        height: 400px; }
+      .about .timeline .journey-container .middle-line {
+        display: none; } }
+  @media screen and (max-width: 400px) {
+    .about .timeline .journey-container {
+      height: 1980px; } }
+
+.timeline {
+  background-color: #f1f1f1; }
 
 /*# sourceMappingURL=About.css.map */
